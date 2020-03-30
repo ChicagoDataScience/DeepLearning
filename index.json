@@ -8,14 +8,14 @@
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/cnn/",
-	"title": "Pipelines",
+	"title": "CNNs",
 	"tags": [],
 	"description": "",
 	"content": " Chapter 2 Outline Topics include CNNs, transfer learning and debugging/interpretability.\n"
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/seq2seq/",
-	"title": "Version Control",
+	"title": "Seq2Seq",
 	"tags": [],
 	"description": "",
 	"content": " Chapter 3 Outline Topics include LSTMs and other RNNs, Transformers.\n"
