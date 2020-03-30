@@ -1,0 +1,43 @@
+[
+{
+	"uri": "https://chicagodatascience.github.io/DeepLearning/backprop/",
+	"title": "Backprop",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 1 Outline Topics include the chain rule, backprop and automatic differentiation.\n"
+},
+{
+	"uri": "https://chicagodatascience.github.io/DeepLearning/cnn/",
+	"title": "Pipelines",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 2 Outline Topics include CNNs, transfer learning and debugging/interpretability.\n"
+},
+{
+	"uri": "https://chicagodatascience.github.io/DeepLearning/seq2seq/",
+	"title": "Version Control",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 3 Outline Topics include LSTMs and other RNNs, Transformers.\n"
+},
+{
+	"uri": "https://chicagodatascience.github.io/DeepLearning/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://chicagodatascience.github.io/DeepLearning/",
+	"title": "Deep Learning",
+	"tags": [],
+	"description": "",
+	"content": " Advanced Predictive Models and Applications for Business Analytics (IDS576) The goal of this class is to cover a subset of advanced machine learning techniques, after students have seen the basics of data mining (such as in in IDS 572) and machine learning (such as in IDS 575). Broadly, we will cover topics spanning graphical models, deep learning and reinforcement learning. Graphical models are useful for inferring outcomes and making predictions conditional on preceding/related events, even when we do not have full information. They have found success in tracking, speech recognition, language modeling (Hidden Markov Models), image segmentation (Markov Random Fields) and other applications. Similarly, we will study popular deep learning architectures, their design choices and how they are trained. We will also study recurrent and convolutional architectures which achieve state of the art in challenging prediction tasks in text and computer vision applications. Finally, we will look at online and reinforcement learning problems and their role in sequential decision making problem areas such as transportation and retail.\n Learning goals  Previous Editions  Fall 2019 (has videos!) Spring 2019 (has videos!) Spring 2018 (has videos!) Spring 2017 (has videos!)  Logistics  Semester: Fall 2020 Lecture times: Thursdays 3.30 PM to 6.00 PM at TBD Staff  Instructor: Dr. Theja Tulabandhula Teaching Assistant: TBD  Online communication: theja@uic.edu Offline communication:  Instructor Office Hours: Thursdays 2.00 to 3.00 PM at UH 2404 TA Office Hours: TBD   Textbook and Materials  Deep Learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville (2016). Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto (2018).  Software  Python and Jupyter. Refer to this set of notes or this to get started in Python.  Additional list of topics is being worked on.\n Course logistics are TBD.\n Work in progress. Class starts in Fall 2020.\n "
+},
+{
+	"uri": "https://chicagodatascience.github.io/DeepLearning/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
