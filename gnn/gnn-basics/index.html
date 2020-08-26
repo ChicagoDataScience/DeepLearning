@@ -12,7 +12,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/DeepLearning/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/DeepLearning/images/favicon-16x16.png">
 <link rel="manifest" href="/DeepLearning/images/site.webmanifest">
-    <title>Backprop :: Advanced Prediction Models for Business Applications</title>
+    <title>Basics :: Advanced Prediction Models for Business Applications</title>
 
     
     <link href="/DeepLearning/css/nucleus.css?1598460513" rel="stylesheet">
@@ -38,7 +38,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/DeepLearning/backprop/">
+  <body class="" data-url="/DeepLearning/gnn/gnn-basics/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -80,8 +80,8 @@
   
     
     <li data-nav-id="/DeepLearning/backprop/" title="Backprop" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/DeepLearning/backprop/">
@@ -158,7 +158,7 @@
   
     
     <li data-nav-id="/DeepLearning/gnn/" title="GCNs" class="dd-item 
-        
+        parent
         
         
         ">
@@ -186,7 +186,7 @@
  
   
     
-      <li data-nav-id="/DeepLearning/gnn/gnn-basics/" title="Basics" class="dd-item ">
+      <li data-nav-id="/DeepLearning/gnn/gnn-basics/" title="Basics" class="dd-item active">
         <a href="/DeepLearning/gnn/gnn-basics/">
         Basics
         <i class="fas fa-check read-icon"></i>
@@ -294,13 +294,35 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
-                   Backprop 
+                   Basics 
                  
                   </span>
                 </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#tldr">TLDR</a></li>
+<li><a href="#why-study-them">Why study them?</a></li>
+<li><a href="#notation">Notation</a></li>
+<li><a href="#the-computation">The Computation</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
                 
               </div>
             </div>
@@ -309,9 +331,12 @@
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              Basics
+            </h1>
           
 
         
@@ -319,24 +344,28 @@
 
 
 
-	
 
-<h3 id="chapter-1">Chapter 1</h3>
+<h3 id="tldr">TLDR</h3>
 
-<h1 id="outline">Outline</h1>
+<p>They are useful modules/models/blocks that can take graphs as inputs and generate good graph/node/edge embeddings based on graph properties (the way the edges are connecting the various nodes in the graph) in addition to node/edge attributes you may already have.</p>
 
-<p>Topics include the chain rule, backprop and automatic differentiation.</p>
+<h3 id="why-study-them">Why study them?</h3>
+
+<p>Social networks, biological networks, consumer networks (your customers may be informed and informing others of your product/service via word-of-mouth etc) can be represented as a graph with each node having additional metadata/attributes (e.g., the node can be a customer and metadata can include age, education level, previos purchase if any etc). Once they are represented as a graph, we are interested in making predictions such as propensity to buy or respond to a marketing campaign, while taking into account influences from their neighbors (in the graph).</p>
+
+<h3 id="notation">Notation</h3>
+
+<p>Let $G=(V,E)$ be an undirected graph. Let a generic node be represented by $u$ and a generic edge by $e$. In fact, let these also represent the node and edge attributes/features/embeddings (i.e., let $u$ be in $\mathbb{R}^{d_u}$ and $e \in \mathbb{R}^{d_e}$). Then a GNN is a function $f$ that maps the graph (i.e., the collection of node and edge embeddings ) to a new collection of node and edge embeddings.</p>
+
+<h3 id="the-computation">The Computation</h3>
+
+<p>The way the function $f$ acts on the initial embeddings to get the final outputs can be thought in terms of layers and message passing.</p>
 
 
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
-        
-            </div> 
         
         </div> 
         
@@ -368,23 +397,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                         
                         
                     
@@ -428,10 +440,28 @@
                     
 
                     
+            
+        
+                    
                         
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -451,6 +481,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -488,10 +521,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/DeepLearning/" title="Deep Learning"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/DeepLearning/gnn/" title="GCNs"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/DeepLearning/cnn/" title="CNNs" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/DeepLearning/logistics/" title="Course Logistics" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -560,3 +593,4 @@
 </script>
   </body>
 </html>
+

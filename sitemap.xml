@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chicagodatascience.github.io/DeepLearning/gnn/gnn-basics/</loc>
+    <lastmod>2020-03-31T10:55:36-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chicagodatascience.github.io/DeepLearning/backprop/</loc>
   </url>
   
@@ -15,11 +20,25 @@
   </url>
   
   <url>
-    <loc>https://chicagodatascience.github.io/DeepLearning/categories/</loc>
+    <loc>https://chicagodatascience.github.io/DeepLearning/gnn/</loc>
+    <lastmod>2020-03-31T10:55:36-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://chicagodatascience.github.io/DeepLearning/</loc>
+    <lastmod>2020-03-31T10:55:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chicagodatascience.github.io/DeepLearning/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chicagodatascience.github.io/DeepLearning/logistics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chicagodatascience.github.io/DeepLearning/logistics/online_technology_requirements/</loc>
   </url>
   
   <url>

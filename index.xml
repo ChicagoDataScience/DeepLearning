@@ -6,9 +6,31 @@
     <description>Recent content in Deep Learning on Advanced Prediction Models for Business Applications</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Tue, 31 Mar 2020 10:55:36 -0400</lastBuildDate>
     
 	<atom:link href="https://chicagodatascience.github.io/DeepLearning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Basics</title>
+      <link>https://chicagodatascience.github.io/DeepLearning/gnn/gnn-basics/</link>
+      <pubDate>Tue, 31 Mar 2020 10:55:36 -0400</pubDate>
+      
+      <guid>https://chicagodatascience.github.io/DeepLearning/gnn/gnn-basics/</guid>
+      <description>TLDR They are useful modules/models/blocks that can take graphs as inputs and generate good graph/node/edge embeddings based on graph properties (the way the edges are connecting the various nodes in the graph) in addition to node/edge attributes you may already have.
+Why study them? Social networks, biological networks, consumer networks (your customers may be informed and informing others of your product/service via word-of-mouth etc) can be represented as a graph with each node having additional metadata/attributes (e.</description>
+    </item>
+    
+    <item>
+      <title>Online Learning Details</title>
+      <link>https://chicagodatascience.github.io/DeepLearning/logistics/online_technology_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chicagodatascience.github.io/DeepLearning/logistics/online_technology_requirements/</guid>
+      <description>Online Learning Details To maximize the learning experience, it will be good if students can meet the following basic technology requirements:
+ At a minimum, students should have a device and an internet connection. A microphone, and a webcam would be highly recommended. See the Basic Technology Requirements link for more details.
+ Laptop, Chromebook or Desktop Computer: Note that Chromebooks are used to perform a variety of browser-based tasks with most data and applications, such as Blackboard Learn, Blackboard Collaborate, Google Docs, and Office 365, residing in the cloud rather than on the machine itself.</description>
+    </item>
     
   </channel>
 </rss>
