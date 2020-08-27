@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GCNs on Advanced Prediction Models for Business Applications</title>
-    <link>https://chicagodatascience.github.io/DeepLearning/gnn/</link>
+    <link>https://chicagodatascience.github.io/DeepLearning/additional-notes/gnn/</link>
     <description>Recent content in GCNs on Advanced Prediction Models for Business Applications</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 31 Mar 2020 10:55:36 -0400</lastBuildDate>
     
-	<atom:link href="https://chicagodatascience.github.io/DeepLearning/gnn/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chicagodatascience.github.io/DeepLearning/additional-notes/gnn/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basics</title>
-      <link>https://chicagodatascience.github.io/DeepLearning/gnn/gnn-basics/</link>
+      <link>https://chicagodatascience.github.io/DeepLearning/additional-notes/gnn/gnn-basics/</link>
       <pubDate>Tue, 31 Mar 2020 10:55:36 -0400</pubDate>
       
-      <guid>https://chicagodatascience.github.io/DeepLearning/gnn/gnn-basics/</guid>
+      <guid>https://chicagodatascience.github.io/DeepLearning/additional-notes/gnn/gnn-basics/</guid>
       <description>TLDR They are useful modules/models/blocks that can take graphs as inputs and generate good graph/node/edge embeddings based on graph properties (the way the edges are connecting the various nodes in the graph) in addition to node/edge attributes you may already have.
 Why study them? Social networks, biological networks, consumer networks (your customers may be informed and informing others of your product/service via word-of-mouth etc) can be represented as a graph with each node having additional metadata/attributes (e.</description>
     </item>
