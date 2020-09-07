@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Schedule</title>
+      <link>https://chicagodatascience.github.io/DeepLearning/logistics/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chicagodatascience.github.io/DeepLearning/logistics/schedule/</guid>
+      <description>L01 : Motivating Applications, Machine Learning Pipeline (Data, Models, Loss, Optimization), Backpropagation L02 : Feedforward Networks: Nonlinearities, Convolutional Neural Networks: Convolution, Pooling L03 : Jumpstarting Convolutional Neural Networks: Visualization, Transfer, Practical Models (VGG, ResNet) L04 : Text and Embeddings: Introduction to NLP, Word Embeddings, Word2Vec L05 : Recurrent Neural Networks and Transformers: Sequence to Sequence Learning, RNNs and LSTMs, Attention and BERT L06 : Unsupervised Deep Learning: Generative Adversarial Networks, Variational Autoencoders LP1 : Project Progress Check-in  Hand in a project intermediate project report by the deadline in the course logistics.</description>
+    </item>
+    
+    <item>
       <title>Online Learning Details</title>
       <link>https://chicagodatascience.github.io/DeepLearning/logistics/online_technology_requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
