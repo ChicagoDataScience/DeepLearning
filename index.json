@@ -11,28 +11,28 @@
 	"title": "Lecture 1",
 	"tags": [],
 	"description": "",
-	"content": " L01 : Motivating Applications, Machine Learning Pipeline (Data, Models, Loss, Optimization), Backpropagation  Lecture note Notebook: Python review Notebook: Linear classifier with backprop Notebook: Simple 2D data Online Demo  "
+	"content": " L01 : Motivating Applications, Machine Learning Pipeline (Data, Models, Loss, Optimization), Backpropagation  Lecture note Notebook: Python review Notebook: Linear classifier with backprop Notebook: Simple 2D data Online Demo  Lecture Goals  Understand the key components to set up a classification task Relate business problems to machine learning methods Understand how chain rule works Understand why multiclass logistic regression may not work well even for 2D data  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture02/",
 	"title": "Lecture 2",
 	"tags": [],
 	"description": "",
-	"content": " L02 : Feedforward Networks: Nonlinearities, Convolutional Neural Networks: Convolution, Pooling  Lecture note Notebook: Feedforward net with backprop Notebook: Pytorch Basics Notebook: Convolutional network run-through University GPU setup video  "
+	"content": " L02 : Feedforward Networks: Nonlinearities, Convolutional Neural Networks: Convolution, Pooling  Lecture note Notebook: Feedforward net with backprop Notebook: Pytorch Basics Notebook: Convolutional network run-through University GPU setup video  Lecture Goals  Get acquainted with the basics of Python Understand the notion of hidden layers and nonlinearities Convolution layer as collection of filters applied to input tensors Why pooling helps in reducing parameters downstream  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture03/",
 	"title": "Lecture 3",
 	"tags": [],
 	"description": "",
-	"content": " L03 : Jumpstarting Convolutional Neural Networks: Visualization, Transfer, Practical Models (VGG, ResNet)  Lecture note Notebook: Overfitting and Dropout example (original source)  "
+	"content": " L03 : Jumpstarting Convolutional Neural Networks: Visualization, Transfer, Practical Models (VGG, ResNet)  Lecture note Notebook: Overfitting and Dropout example (original source)  Lecture Goals  Understand how to transfer parameters previously learned for a new task Know the different ways to debug a deep network Be aware of the different engineering tricks such as dropout, batch normalization Learn why image datasets can be enhanced using data augmentation  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture04/",
 	"title": "Lecture 4",
 	"tags": [],
 	"description": "",
-	"content": " L04 : Text and Embeddings: Introduction to NLP, Word Embeddings, Word2Vec  Lecture note Spacy Additional Reading: Latent Dirichlet Allocation Additional Reading: CNN for sentence classification tasks. link1 and link2 Pytorch tutorial on using CNN for sentence classification: notebook 4  "
+	"content": " L04 : Text and Embeddings: Introduction to NLP, Word Embeddings, Word2Vec  Lecture note Spacy Additional Reading: Latent Dirichlet Allocation Additional Reading: CNN for sentence classification tasks. link1 and link2 Pytorch tutorial on using CNN for sentence classification: notebook 4  Lecture Goals  Understand how natural language elements (such as words) are processed in an analytics workflow Understand the shortcomings of methods such as Naive Bayes, Latent Dirichlet Allocation Realize that a CNN can also be used for a NLP task (sentence classification/sentiment analysis) What is word2vec and how does it help in NLP tasks?  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture05/",
