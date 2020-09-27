@@ -4,7 +4,7 @@
 	"title": "Schedule",
 	"tags": [],
 	"description": "",
-	"content": " L01 : Motivating Applications, Machine Learning Pipeline (Data, Models, Loss, Optimization), Backpropagation L02 : Feedforward Networks: Nonlinearities, Convolutional Neural Networks: Convolution, Pooling L03 : Jumpstarting Convolutional Neural Networks: Visualization, Transfer, Practical Models (VGG, ResNet) L04 : Text and Embeddings: Introduction to NLP, Word Embeddings, Word2Vec L05 : Recurrent Neural Networks and Transformers: Sequence to Sequence Learning, RNNs and LSTMs, Attention and BERT L06 : Unsupervised Deep Learning: Generative Adversarial Networks, Variational Autoencoders LP1 : Project Progress Check-in  Hand in a project intermediate project report by the deadline in the course logistics. This will be discussed during class hours with individual teams.  L07 : Online Learning: A/B Testing, Multi-armed Bandits, Contextual Bandits L08 : Reinforcement Learning: Policies, State-Action Value Functions, Q-Learning L09 : Deep Reinforcement Learning: Function Approximation, DQN for Atari Games, AlphaGo Zero L10: TBD L11: TBD L12: TBD LP2: Project Presentations by Students  Live project presentation during class hours. More details are provided in the project instuctions document (see logistics).  "
+	"content": " L01 : Motivating Applications, Machine Learning Pipeline (Data, Models, Loss, Optimization), Backpropagation L02 : Feedforward Networks: Nonlinearities, Convolutional Neural Networks: Convolution, Pooling L03 : Jumpstarting Convolutional Neural Networks: Visualization, Transfer, Practical Models (VGG, ResNet) L04 : Text and Embeddings: Introduction to NLP, Word Embeddings, Word2Vec L05 : Recurrent Neural Networks and Transformers: Sequence to Sequence Learning, RNNs and LSTMs L06 : Unsupervised Deep Learning: Generative Adversarial Networks, Variational Autoencoders LP1 : Project Progress Check-in  Hand in a project intermediate project report by the deadline in the course logistics. This will be discussed during class hours with individual teams.  L07 : Online Learning: A/B Testing, Multi-armed Bandits, Contextual Bandits L08 : Reinforcement Learning: Policies, State-Action Value Functions, Q-Learning L09 : Deep Reinforcement Learning: Function Approximation, DQN for Atari Games, AlphaGo Zero L10: Advanced NLP: Attention, BERT and Transformers L11: Ootimization Strategies L12: Deep Learning for Recommendation Systems LP2: Project Presentations by Students  Live project presentation during class hours. More details are provided in the project instuctions document (see logistics).  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture01/",
@@ -39,63 +39,56 @@
 	"title": "Lecture 5",
 	"tags": [],
 	"description": "",
-	"content": " L05 : Recurrent Neural Networks and Transformers: Sequence to Sequence Learning, RNNs and LSTMs, Attention and BERT  Lecture note Git Workflow Attention Is All You Need and an annotated version BERT Attention Transformer in Pytorch SOTA Transformer Implementations  "
+	"content": " L05 : Recurrent Neural Networks and Transformers: Sequence to Sequence Learning, RNNs and LSTMs  Lecture note part I Lecture note part II RNN example in Pytorch RNN function implementation in Pytorch LSTM example in Pytorch  Lecture Goals  Know when prediction tasks can have sequential dependencies The RNN architecture and unfolding Know how LSTMs work Applications of ‘sequential to sequential’ models  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture06/",
 	"title": "Lecture 6",
 	"tags": [],
 	"description": "",
-	"content": " L06 : Unsupervised Deep Learning: Generative Adversarial Networks, Variational Autoencoders  Lecture note Notebook: GAN example on CelebFaces Attributes (CelebA) Dataset (dataset) VAE in Pytorch from Pytorch examples repository A simple flask app for a Pytorch classification model (tutorial page)  "
+	"content": " L06 : Unsupervised Deep Learning: Generative Adversarial Networks, Variational Autoencoders  Lecture note Notebook: GAN example on CelebFaces Attributes (CelebA) Dataset (dataset) VAE in Pytorch from Pytorch examples repository A simple flask app for a Pytorch classification model (tutorial page)  Lecture Goals  Meaning of generative modeling The intuition behind generative adversarial networks (GANs) What are variational autoencoders (VAEs) and where can they be used? Differences between GANs and VAEs  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture07/",
 	"title": "Lecture 7",
 	"tags": [],
 	"description": "",
-	"content": " L07 : Online Learning: A/B Testing, Multi-armed Bandits, Contextual Bandits  Lecture note Bandit Implementations in Python: SMPyBandits A blog post on Bandits by Lilian Weng  "
+	"content": " L07 : Online Learning: A/B Testing, Multi-armed Bandits, Contextual Bandits  Lecture note Bandit Implementations in Python: SMPyBandits A blog post on Bandits by Lilian Weng  Lecture Goals  What is online learning? How is it different from supervised learning? Relation between forecasting and decision making The multi armed bandit problem and solutions Contextual bandits  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture08/",
 	"title": "Lecture 8",
 	"tags": [],
 	"description": "",
-	"content": " L08 : Reinforcement Learning: Policies, State-Action Value Functions, Q-Learning  Lecture note Openai Gym RL in Pytorch from Pytorch examples repository  "
+	"content": " L08 : Reinforcement Learning: Policies, State-Action Value Functions, Q-Learning  Lecture note Openai Gym RL in Pytorch from Pytorch examples repository  Lecture Goals  What is reinforcement learning? Basics of a Markov Decision Process Policies, Values and how to think about these two objects Bellman Expectation Equation and Bellman Optimality Equation  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture09/",
 	"title": "Lecture 9",
 	"tags": [],
 	"description": "",
-	"content": " L09 : Deep Reinforcement Learning: Function Approximation, DQN for Atari Games, AlphaGo Zero  Lecture note Implementations I Implementations II Flappy Bird RL  "
+	"content": " L09 : Deep Reinforcement Learning: Function Approximation, DQN for Atari Games, AlphaGo Zero  Lecture note Implementations I Implementations II Flappy Bird RL  Lecture Goals  Function approximation in Q-learning DQN for Atari games Monte Carlo tree search vs Monte Carlo rollouts AlphaZero for Go, Chess and Shogi  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture10/",
 	"title": "Lecture 10",
 	"tags": [],
 	"description": "",
-	"content": " TBD "
+	"content": " L10 : Advanced NLP  Attention Is All You Need and an annotated version BERT Attention Transformer in Pytorch SOTA Transformer Implementations  Lecture Goals  TBD  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture11/",
 	"title": "Lecture 11",
 	"tags": [],
 	"description": "",
-	"content": " TBD "
+	"content": " L11: Advanced Vision, Optimization Strategies  Image localization, YOLOv3 Neural style transfer Adam SGD RMSProp  Lecture Goals  TBD  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture12/",
 	"title": "Lecture 12",
 	"tags": [],
 	"description": "",
-	"content": " TBD "
-},
-{
-	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture13/",
-	"title": "Lecture 13",
-	"tags": [],
-	"description": "",
-	"content": " TBD "
+	"content": " L12: Deep Learning for Recommendation Systems Lecture Goals  TBD  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/categories/",
@@ -109,14 +102,14 @@
 	"title": "Course Logistics",
 	"tags": [],
 	"description": "",
-	"content": " Course Logistics  Semester: Fall 2020 Lectures: Thursdays 3.30 PM to 6.00 PM Mode: Online synchronous (i.e., location is online). The course will be delivered over Zoom (an invite will be sent before the first day of class). See the online learning page for basic technology requirements. Staff  Instructor: Dr. Theja Tulabandhula (netid: theja) Teaching Assistant: Danial Mohseni-Taheri (netid: smohse3)  Communication: via slack, zoom and one note class notebook. Office hours: online via slack zoom.  Textbook and Materials  Deep Learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville (2016). Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto (2018).  Software  Any OS should be okay. If in doubt, run a virtual machine running linux (this will be discussed in the class). Some of the software we will work with are:  Python: Refer to this set of notes or this to get started in Python. Jupyter \u0026hellip;   Hardware  There will be varied computing resources needed for this course.  We will rely on Google Colab, especially the GPU/TPU to train our deep learning models. Try using a virtual machine with linux on your own computer if needed. A Windows virtual desktop is available at desktop.uic.edu if needed. You can refer to these two help pages to get started.    Assignments  09-03: Assignment 1. Due 09-16. Example template ipynb. 09-17: Assignment 2. Due 09-30. 10-01: Assignment 3. Due 10-14. 11-12: Assignment 4. Due 11-25.   These involve reimplementing recent deep-learning techniques and understanding their behavior on interesting datasets. Always mention any sources that were relied on, in your assignment solutions. Submission deadline is BEFORE 11.59 PM on the concerned day. Late submissions will have an automatic 20% penalty per day without exceptions. Use Blackboard for uploads.  Project  Students are expected to apply what they learn in the course and demonstrate their understanding by undertaking a suitable project. A preliminary documentation along with the scripts/codes/commands used is to be submitted on October 7th and a final version of the same is to be submitted on December 2nd. The projects will be presented to the rest of the class on December 3rd. The evaluation criteria and other details are available here. Submission deadline is BEFORE 11.59 PM on the concerned day. Late submissions will have an automatic 20% penalty per day. Use Blackboard for uploading your work as a single zip file.  Grades  Grades will be based on the assignments (4 times 10%), the project (see project evaluation criteria above) (50%) and course participation (10%).  Miscellaneous Information  This is a 4 credit graduate level course offered by the Information and Decision Sciences department at UIC. See the academic calendar for the semester timeline. Students who wish to observe their religious holidays (http://oae.uic.edu/religious-calendar/) should notify the instructor within one week of the first lecture date. Contact the instructor at the earliest, if you require any accommodations for access to and/or participation in this course. Refer to the academic integrity guidelines set by the university.  "
+	"content": " Course Logistics  Semester: Fall 2020 Lectures: Thursdays 3.30 PM to 6.00 PM Mode: Online synchronous (i.e., location is online). The course will be delivered over Zoom (an invite will be sent before the first day of class). See the online learning page for basic technology requirements. Staff  Instructor: Dr. Theja Tulabandhula (netid: theja) Teaching Assistant: Danial Mohseni-Taheri (netid: smohse3)  Communication: via slack, zoom and one note class notebook. Office hours: online via slack zoom.  Textbook and Materials  Deep Learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville (2016). Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto (2018).  Software  Any OS should be okay. If in doubt, run a virtual machine running linux (this will be discussed in the class). Some of the software we will work with are:  Python: Refer to this set of notes or this to get started in Python. Jupyter \u0026hellip;   Hardware  There will be varied computing resources needed for this course.  We will rely on Google Colab, especially the GPU/TPU to train our deep learning models. Try using a virtual machine with linux on your own computer if needed. A Windows virtual desktop is available at desktop.uic.edu if needed. You can refer to these two help pages to get started.    Assignments  Assignment 1. Due 09-16. Example template ipynb. Assignment 2. Due 09-30. Assignment 3. Due 10-21. Assignment 4. Due 11-11.   These involve reimplementing recent deep-learning techniques and understanding their behavior on interesting datasets. Always mention any sources that were relied on, in your assignment solutions. Submission deadline is BEFORE 11.59 PM on the concerned day. Late submissions will have an automatic 20% penalty per day without exceptions. Use Blackboard for uploads.  Project  Students are expected to apply what they learn in the course and demonstrate their understanding by undertaking a suitable project. A preliminary documentation along with the scripts/codes/commands used is to be submitted on October 7th and a final version of the same is to be submitted on December 2nd. The projects will be presented to the rest of the class on December 3rd. The evaluation criteria and other details are available here. Submission deadline is BEFORE 11.59 PM on the concerned day. Late submissions will have an automatic 20% penalty per day. Use Blackboard for uploading your work as a single zip file.  Grades  Grades will be based on the assignments (4 times 10%), the project (see project evaluation criteria above) (50%) and course participation (10%).  Miscellaneous Information  This is a 4 credit graduate level course offered by the Information and Decision Sciences department at UIC. See the academic calendar for the semester timeline. Students who wish to observe their religious holidays (http://oae.uic.edu/religious-calendar/) should notify the instructor within one week of the first lecture date. Contact the instructor at the earliest, if you require any accommodations for access to and/or participation in this course. Refer to the academic integrity guidelines set by the university.  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/",
 	"title": "Deep Learning",
 	"tags": [],
 	"description": "",
-	"content": " Advanced Predictive Models and Applications for Business Analytics (IDS576) The goal of this class is to cover a subset of advanced machine learning techniques, after students have seen the basics of data mining (such as in in IDS 572) and machine learning (such as in IDS 575).\nBroadly, we will cover topics spanning deep learning and reinforcement learning. In particular, we will study popular deep learning architectures, their design choices and how they are trained. This will be motivated by business applications dealing with image, text and tabular data. Finally, we will look at online and reinforcement learning frameworks and their role in sequential decision making settings such as retail.\nA tentative list of topics is as follows:\n Backpropagation and feed forward neural networks Convolutional networks (CNNs) Recurrent networks and LSTMs Variational autoencoders (VAEs) Generative adversarial networks (GANs) Deep reinforcement learning and DQN Deep learning design choices such as optimizers (Adam), nonlinearities, embeddings, attention, dropout, batch normalization etc.  Previous Editions  Fall 2019 (has videos!) Spring 2019 (has videos!) Spring 2018 (has videos!) Spring 2017 (has videos!)  "
+	"content": " Advanced Predictive Models and Applications for Business Analytics (IDS576) The goal of this class is to cover a subset of advanced machine learning techniques, after students have seen the basics of data mining (such as in in IDS 572) and machine learning (such as in IDS 575).\nBroadly, we will cover topics spanning deep learning and reinforcement learning. In particular, we will study popular deep learning architectures, their design choices and how they are trained. This will be motivated by business applications dealing with image, text and tabular data. Finally, we will look at online and reinforcement learning frameworks and their role in sequential decision making settings such as retail.\nA tentative list of topics is as follows:\n Backpropagation and feed forward neural networks Convolutional networks (CNNs) Recurrent networks and Long short-term memory networks (LSTMs) Attention mechanism and transformers (BERT, GPT-3) Variational autoencoders (VAEs) Generative adversarial networks (GANs) Deep reinforcement learning and Deep Q-Network (DQN) Deep learning design choices such as optimizers (Adam), nonlinearities, embeddings, attention, dropout, batch normalization etc.  Previous Editions  Fall 2019 (has videos!) Spring 2019 (has videos!) Spring 2018 (has videos!) Spring 2017 (has videos!)  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/logistics/online_technology_requirements/",
