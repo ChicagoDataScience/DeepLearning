@@ -81,14 +81,14 @@
 	"title": "Lecture 11",
 	"tags": [],
 	"description": "",
-	"content": " L11 : Advanced NLP: Attention, BERT and Transformers  Attention Is All You Need and an annotated version BERT Attention Transformer in Pytorch SOTA Transformer Implementations  Lecture Goals  Be able to explain self-attention and how it differs from simpler attention mechanisms seen in sequence to sequence models Be able to reason about keys, values and queries Be able to recall the key characteristics of BERT and GPT-2\u0026frasl;3  "
+	"content": " L11 : Advanced NLP: Attention, BERT and Transformers  Lecture note Attention Is All You Need and an annotated version BERT and its repository Illustrated BERT Attention Transformer Tutorial in Pytorch SOTA Transformer Implementations including BERT and DistillBERT (for example BERT-base-uncased)  Lecture Goals  Be able to explain self-attention and how it differs from simpler attention mechanisms seen in sequence to sequence models Be able to reason about keys, values and queries in self-attention Be able to recall the key characteristics of BERT and how pre-trained models can be used for NLP tasks.  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/lecture12/",
 	"title": "Lecture 12",
 	"tags": [],
 	"description": "",
-	"content": " L12: Advanced Vision: Image Localization, Object Detection and Neural Style Transfer  Image localization, object detection and YOLOv3 Image segmentation Neural style transfer Optimizers: Adam vs SGD vs RMSProp  Lecture Goals  Be able to understand the architectures and loss function definitions for image localization and object detection problems Be able to understand the working of style transfer Be able to understand the differences between popular gradient based optimization techniques  "
+	"content": " L12: Advanced Vision: Image Localization, Object Detection and Neural Style Transfer  Image localization, object detection and YOLOv3 Neural style transfer Optimizers: Adam vs SGD vs RMSProp  Lecture Goals  Be able to understand the architectures and loss function definitions for image localization and object detection problems Be able to understand the working of style transfer Be able to understand the differences between popular gradient based optimization techniques  "
 },
 {
 	"uri": "https://chicagodatascience.github.io/DeepLearning/categories/",
